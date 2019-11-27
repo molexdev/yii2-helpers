@@ -8,6 +8,8 @@
 
 namespace molex\helpers;
 
+use Yii;
+
 /**
  * Flash helper is helper that wrap flash management from Session Object (Yii::$app->session)
  *
