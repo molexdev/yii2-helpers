@@ -41,7 +41,7 @@ class Flash
      */
     public static function get($key, $defaultValue = null, $delete = false)
     {
-        Yii::$app->session->getFlash($key, $defaultValue = null, $delete = false);
+        return Yii::$app->session->getFlash($key, $defaultValue = null, $delete = false);
     }
 
     /**
@@ -80,7 +80,7 @@ class Flash
      */
     public static function getAll($delete = false)
     {
-        Yii::$app->session->getAllFlashes($delete);
+        return Yii::$app->session->getAllFlashes($delete);
     }
 
     /**
@@ -157,7 +157,7 @@ class Flash
      */
     public static function remove($key)
     {
-        Yii::$app->session->removeFlash($key);
+        return Yii::$app->session->removeFlash($key);
     }
 
     /**
@@ -196,6 +196,6 @@ class Flash
      */
     public static function has($key)
     {
-        Yii::$app->session->hasFlash($key);
+        return Yii::$app->session->hasFlash($key);
     }
 }
