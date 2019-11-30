@@ -1,0 +1,32 @@
+{
+    "name": "molexdev/yii2-helpers",
+    "description": "Molex Helpers for Yii2",
+    "keywords": [
+        "yii",
+        "yii2",
+        "helpers",
+        "molex"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/molexdev/yii2-helpers/issues",
+        "source": "https://github.com/molexdev/yii2-helpers"
+    },
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "https://github.com/molexdev/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "molex\\helpers\\": "src"
+        }
+    }
+}
